@@ -1,0 +1,11 @@
+.header {
+  background: url("https://www.univ-lille.fr/fileadmin/_processed_/1/3/csm_bandeau-noel2018_a0a71d15f6.jpg");
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  color: orange;
+  justify-content: center;
+  align-items: center;
+  font-size: 150px;
+  font-weight: bold;
+}
