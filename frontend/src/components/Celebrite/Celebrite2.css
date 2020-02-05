@@ -1,4 +1,15 @@
-.mb-3 {
-  margin-left: -193px;
-  margin-right: 189px;
+.jeux {
+  margin-bottom: 47px;
+  margin-top: 20px;
+  border: 3px solid black;
+  border-radius: 16px;
+}
+
+.gras {
+  font-weight: bold;
+}
+
+.bruh {
+  /* flex-wrap: nowrap !important;
+  justify-content: center; */
 }

@@ -1,0 +1,50 @@
+h4 {
+  font-size: xx-large;
+  width: 185px;
+  margin: auto;
+  border: solid 1px grey;
+  height: 50px;
+  padding: 5px;
+  margin-top: 35px;
+}
+
+.lab {
+  margin-top: 51px;
+  font-size: large;
+  font-weight: bold;
+  margin-left: 17px;
+}
+
+.in {
+  border: gray solid 1px;
+  width: 1862px;
+  margin-left: 16px;
+}
+
+.date {
+  font-size: large;
+  font-weight: bold;
+  margin-left: 17px;
+}
+
+.bloc {
+  border: grey solid 1px;
+  width: 1862px;
+  margin-left: 16px;
+}
+
+.ville {
+  font-size: large;
+  font-weight: bold;
+  margin-left: 17px;
+}
+
+.carre {
+  border: grey solid 1px;
+  width: 1862px;
+  margin-left: 16px;
+}
+
+.reserve {
+  text-align: center;
+}

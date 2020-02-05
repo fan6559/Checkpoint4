@@ -16,19 +16,18 @@ const user = sequelize.define(
     },
 
     prenom: {
-        type: Sequelize.STRING,
-        allowNull: true
-      },
+      type: Sequelize.STRING,
+      allowNull: true
+    },
 
     adresseMail: {
-        type: Sequelize.STRING,
-        allowNull: true
-      },
-      telephone:{
-          type:Sequelize.INTEGER,
-          allowNull: true
-      }
-
+      type: Sequelize.STRING,
+      allowNull: true
+    },
+    telephone: {
+      type: Sequelize.INTEGER,
+      allowNull: true
+    }
   },
   {}
 );

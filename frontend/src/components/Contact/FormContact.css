@@ -1,0 +1,55 @@
+h5 {
+  font-size: medium;
+  width: 185px;
+  margin: auto;
+  height: 50px;
+  padding: 5px;
+}
+
+.dodo {
+  border: solid 3px black;
+  margin-top: 49px;
+  height: 480px;
+  border-radius: 20px;
+  margin-left: 2px;
+}
+
+.bouton {
+  text-align: center;
+  margin-top: 14px;
+}
+
+.name {
+  margin-left: 17px;
+}
+
+.meduza {
+  width: 1862px;
+  margin-left: 16px;
+}
+
+.lettre {
+  margin-left: 17px;
+}
+.regard {
+  width: 1862px;
+  margin-left: 16px;
+}
+
+.email {
+  margin-left: 17px;
+}
+
+.weeknd {
+  width: 1862px;
+  margin-left: 16px;
+}
+
+.texto {
+  margin-left: 17px;
+}
+
+.bakermat {
+  width: 1862px;
+  margin-left: 16px;
+}

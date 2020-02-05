@@ -3,22 +3,26 @@ import axios from "axios";
 import { Container, Row } from "reactstrap";
 
 import Celebrite2 from "../Celebrite/Celebrite2";
+import "./Celebrite2.css";
 
 class Celebrite extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      seance: [],
+      celebrites: [],
       isLoading: false
     };
     this.handledelete = this.handledelete.bind(this);
   }
 
   componentDidMount() {
+    console.log("sortie");
     this.setState({ isLoading: true });
     axios.get("http://localhost:8000/celebrite").then(response => {
       const sortie = response.data;
-      this.setState({ seance: sortie });
+      console.log(sortie);
+
+      this.setState({ celebrites: sortie });
     });
   }
 
@@ -31,9 +35,10 @@ class Celebrite extends React.Component {
 
   render() {
     return (
-      <Container>
-        <Row>
-          {this.state.seance.map((celebrite, index) => {
+      <Container fluid={true} style={{ backgroundColor: "black" }}>
+        {/* <Container> */}
+        <Row className="bruh">
+          {this.state.celebrites.map((celebrite, index) => {
             return (
               <Celebrite2
                 {...celebrite}
@@ -43,6 +48,7 @@ class Celebrite extends React.Component {
             );
           })}
         </Row>
+        {/* </Container> */}
       </Container>
     );
   }

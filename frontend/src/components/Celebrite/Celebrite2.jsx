@@ -7,11 +7,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const Celebrite2 = props => {
   console.log(props);
   return (
-    <Col lg={3} className="mb-3">
+    <Col lg={2} className="mb-3">
       <Card className="jeux">
         <CardImg className="adventure" src={props.image} alt="" />
         <CardBody>
-          <CardTitle>{props.nom}</CardTitle>
+          <CardTitle className="gras">{props.nom}</CardTitle>
           <CardText>{props.biographie}</CardText>
         </CardBody>
       </Card>
